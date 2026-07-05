@@ -84,6 +84,14 @@ The application is engineered with a strict decoupled structure separating busin
 
 
 
+* You can try the app using the [link](https://plantcareapp.streamlit.app/)
+
+
+
+---
+
+
+
 ### File Structure
 
 ```text
