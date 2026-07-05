@@ -8,8 +8,8 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Define constants for file storage
-PLANTS_CSV = "plants_collection.csv"
-CARE_LOG_CSV = "care_history.csv"
+PLANTS_CSV = "Data/plants_collection.csv"
+CARE_LOG_CSV = "Data/care_history.csv"
 
 
 def initialize_storage():
