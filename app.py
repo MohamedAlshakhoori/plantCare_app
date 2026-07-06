@@ -77,6 +77,8 @@ with tab2:
             else:
                 msg = pf.add_new_plant(name, location, date_acquired, watering_freq, sunlight, initial_height, photo_path)
                 st.success(msg)
+                time.sleep(3)
+                st.rerun()
 
 
 # TAB 3: Log Care Activity
@@ -101,7 +103,8 @@ with tab3:
         if st.button("Log Care Event"):
             msg = pf.record_care_activity(selected_pid, activity, measurement, notes)
             st.success(msg)
-
+            time.sleep(3)
+            st.rerun()
 
 # TAB 4: Search & Full Collection
 with tab4:
