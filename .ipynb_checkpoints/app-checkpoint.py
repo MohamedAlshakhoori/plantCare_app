@@ -76,9 +76,7 @@ with tab2:
                 st.error("Please supply at least a plant name and location.")
             else:
                 msg = pf.add_new_plant(name, location, date_acquired, watering_freq, sunlight, initial_height, photo_path)
-                if msg:
-                    st.success(msg)
-                    st.rerun()
+                st.success(msg)
 
 
 # TAB 3: Log Care Activity
@@ -103,7 +101,6 @@ with tab3:
         if st.button("Log Care Event"):
             msg = pf.record_care_activity(selected_pid, activity, measurement, notes)
             st.success(msg)
-            st.rerun()
 
 
 # TAB 4: Search & Full Collection
