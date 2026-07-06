@@ -6,6 +6,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 import plant_functions as pf
+import time
 
 # Set up the page config
 st.set_page_config(
