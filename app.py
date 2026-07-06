@@ -16,7 +16,7 @@ st.set_page_config(
 
 # Application Header
 st.title("🌿 Houseplant Care Tracker & Diagnostics")
-st.markdown("Keep your indoor jungle thriving — tracking schedules and monitoring growth.")
+st.markdown("Keep your jungle thriving — tracking schedules and monitoring growth.")
 
 
 # Load Data & Context
