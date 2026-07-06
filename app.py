@@ -78,7 +78,7 @@ with tab2:
             else:
                 msg = pf.add_new_plant(name, location, date_acquired, watering_freq, sunlight, initial_height, photo_path)
                 st.success(msg)
-                time.sleep(3)
+                time.sleep(3) # Fix the problem of not showing the success msg
                 st.rerun()
 
 
