@@ -85,7 +85,7 @@ The application is engineered with a strict decoupled structure separating busin
 
 
 * You can try the app using the [link](https://plantcareapp.streamlit.app/)
-
+* Watch a demo video through this [link](https://drive.google.com/file/d/1iDp95rDShqH4BVsgRmTqLv25BGKDsoTs/view?usp=sharing)
 
 
 ---
